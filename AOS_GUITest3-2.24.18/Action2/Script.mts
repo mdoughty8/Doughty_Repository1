@@ -11,6 +11,10 @@
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("My account My Orders Sign").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebElement("Username").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("username").Set DataTable("Username", dtLocalSheet)
+
+'IF LOGIN FAILS - test shoudl intentionally fail when putting in the bad username doughty3 and password (doughty3 is not a registered user)
+'<insert badd user password here>
+
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("password").SetSecure DataTable("Password_encryp", dtLocalSheet)
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebButton("sign_in_btnundefined").Click
 
