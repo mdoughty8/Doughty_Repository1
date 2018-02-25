@@ -1,4 +1,6 @@
-﻿Browser("Advantage Shopping").Page("Advantage Shopping").Link("doughty1 My account My").Click
+﻿'TODO: Need to add regular expression for login icon that shows "doughty#"
+'TODO:IE unable to find logout icon
+Browser("Advantage Shopping").Page("Advantage Shopping").Link("doughty1 My account My").Click
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("Sign out").Click
 
 'CHECKPOINT TO ENSURE THE LOGIN ICON SUCCESSFULLY REMOVES THE USERNAME AFTER LOGGING OUT

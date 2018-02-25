@@ -10,11 +10,11 @@
 
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("My account My Orders Sign").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebElement("Username").Click
-Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("username").Set "doughty1"
-Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("password").SetSecure "5a923371b74e7a06622e3d5b3fd16a4b5d2b26c847f05e0c"
+Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("username").Set DataTable("Username", dtLocalSheet)
+Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("password").SetSecure DataTable("Password_encryp", dtLocalSheet)
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebButton("sign_in_btnundefined").Click
 
 'CHECKPOINT TO ENSURE THE USERNAME SUCCESSFULLY POPULATES NEXT TO THE LOGIN ICON AFTER LOGGING IN
-'Window("Google Chrome").WinObject("Chrome Legacy Window").Output CheckPoint("UserLoginName") @@ hightlight id_;_1835564_;_script infofile_;_ZIP::ssf1.xml_;_
+'Window("Google Chrome").WinObject("Chrome Legacy Window").Output CheckPoint("UserLoginName")
 
 
