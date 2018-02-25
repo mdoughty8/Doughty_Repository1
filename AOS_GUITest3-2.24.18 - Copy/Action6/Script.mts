@@ -6,6 +6,8 @@
 'Window("Google Chrome").WinObject("Chrome Legacy Window").Click
 'Updated by test maintenance run
 'Window("Mozilla Firefox").Activate
+
+wait 2 'for IE
 Browser("Advantage Shopping").Page("Advantage Shopping").Sync
 'TODO: Unable to find the...
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("safepay_username").Set "michael1"

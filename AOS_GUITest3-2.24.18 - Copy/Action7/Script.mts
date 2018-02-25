@@ -8,7 +8,10 @@
 'Window("Google Chrome").WinObject("Chrome Legacy Window").Check CheckPoint("OrderNum_Checkpoint")
 'TODO: IE unable to find object property for order&tracking#s - need for text checkpoint
 '
-Window("Mozilla Firefox").Check CheckPoint("OrderNum_Checkpoint")
+'TODO: add if then else for recognizing this object specific to Chrome, Firefox and IE
+'Updated by test maintenance run
+'Window("Mozilla Firefox").Check CheckPoint("OrderNum_Checkpoint")
+Window("Mozilla Firefox").WinObject("Chrome Legacy Window").Click 
 'Updated by test maintenance run
 'Window("Google Chrome").WinObject("Chrome Legacy Window").Check CheckPoint("TrackingNum_Checkpoint")
 Window("Mozilla Firefox").Check CheckPoint("TrackingNum_Checkpoint")

@@ -9,6 +9,9 @@
 
 
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("My account My Orders Sign").Click
+
+'add if then else to wait Xsec for IE to properly run the login step?
+
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebElement("Username").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("username").Set DataTable("Username", dtLocalSheet)
 
