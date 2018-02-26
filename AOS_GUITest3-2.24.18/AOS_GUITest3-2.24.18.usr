@@ -44,10 +44,12 @@ Version=14.02
 Database=
 File Content=
 Insight=
+Mobile=
 Windows Applications=
 TEA=
 Web=
 Windows Runtime=
+WPF=
 XML=
 
 [ExtraFiles]

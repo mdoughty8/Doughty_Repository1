@@ -4,5 +4,11 @@
 
 'TODO: FireFox64 not able to find teh tracking # and order # - if updated will this affect the chrome test run that was successful after running maintenance mode?
 'TODO:IE unable to complete checkpoints for order# & tracking#
-Window("Google Chrome").WinObject("Chrome Legacy Window").Check CheckPoint("OrderNum_Checkpoint") @@ hightlight id_;_721820_;_script infofile_;_ZIP::ssf2.xml_;_
-Window("Google Chrome").WinObject("Chrome Legacy Window").Check CheckPoint("TrackingNum_Checkpoint") @@ hightlight id_;_721820_;_script infofile_;_ZIP::ssf4.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").Check CheckPoint("Advantage Shopping")
+
+'Firefox
+'Browser("Advantage Shopping").Page("Advantage Shopping").Check CheckPoint("Advantage Shopping_2")
+'IE
+'Browser("Advantage Shopping").Page("Advantage Shopping").Check CheckPoint("Advantage Shopping_3") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping")_;_script infofile_;_ZIP::ssf5.xml_;_
+
+
