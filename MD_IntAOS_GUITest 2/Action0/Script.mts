@@ -1,0 +1,9 @@
+﻿RunAction "Action1", oneIteration
+RunAction "Login_intAOS", oneIteration
+RunAction "ShopNow_Laptop_intAOS", oneIteration
+RunAction "Add_to_Cart_intAOS", oneIteration
+RunAction "Checkout_intAOS", oneIteration
+RunAction "Order_Payment_intAOS", oneIteration
+RunAction "Pay_Now_intAOS", oneIteration
+RunAction "Order_Payment_Confirmation_intAOS", oneIteration
+RunAction "Logout_intAOS", oneIteration
