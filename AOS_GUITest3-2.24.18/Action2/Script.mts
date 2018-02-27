@@ -3,7 +3,7 @@
 
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Sync
 
-wait 3
+wait 2
 
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("My account My Orders Sign").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebElement("Username").Click

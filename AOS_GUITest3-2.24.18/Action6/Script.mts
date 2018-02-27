@@ -1,6 +1,5 @@
-﻿'Updated by test maintenance run
-'TODO: Unable to find username edit field when running in IE
-'Window("Google Chrome").WinObject("Chrome Legacy Window").Click 'edit field in SafePay username
+﻿
+'Order Payment Method
 
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("safepay_username").Set "michael1"
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("safepay_password").SetSecure "5a9234684950613fec54e74f8036a663b7d3d2f1f24786e0"
