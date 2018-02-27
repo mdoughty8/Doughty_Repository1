@@ -8,6 +8,7 @@ ParamLeftBrace=<
 NewFunctionHeader=1
 MinorVersion=0
 MajorVersion=6	
+ParameterFile=UFT4MParams.prm
 DevelopTool=AQT
 
 [Actions]
