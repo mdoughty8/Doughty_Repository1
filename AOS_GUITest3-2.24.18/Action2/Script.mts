@@ -3,6 +3,8 @@
 
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Sync
 
+wait 3
+
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("My account My Orders Sign").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebElement("Username").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("username").Set DataTable("Username", dtLocalSheet)

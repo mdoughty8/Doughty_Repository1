@@ -2,6 +2,7 @@
 'TODO:IE unable to find logout icon
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("doughty1 My account My").Click
 
+'TODO: IE is able to find sign out but not "doughty1 My account" - works on all other browsers
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("Sign out").Click
 
 'CHECKPOINT TO ENSURE THE LOGIN ICON SUCCESSFULLY REMOVES THE USERNAME AFTER LOGGING OUT
