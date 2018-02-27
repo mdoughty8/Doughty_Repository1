@@ -9,7 +9,7 @@ Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("My account My O
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebElement("Username").Click
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("username").Set DataTable("Username", dtLocalSheet)
 
-'IF LOGIN FAILS - test shoudl intentionally fail when putting in the bad username doughty3 and password (doughty3 is not a registered user)
+'IF() LOGIN FAILS - test shoudl intentionally fail when putting in the bad username doughty3 and password (doughty3 is not a registered user)
 '<insert error path here>
 
 Browser("Advantage Shopping").Page("Advantage Shopping_2").WebEdit("password").SetSecure DataTable("Password_encryp", dtLocalSheet)
